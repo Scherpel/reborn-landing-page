@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.banner-text-wrapper {
+  position: absolute;
+  left: 13%;
+  top: 23%;
+  color: #fff;
+  text-align: left;
+}
+.banner-text-wrapper h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Raleway', 'Hiragino Sans GB';
+  color: #fff;
+}
+.banner-text-wrapper .line {
+  width: 0.8px;
+  height: 76px;
+  position: absolute;
+  background: rgba(255, 255, 255, .44);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.03));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.03));
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.03));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.03));
+  top: 16px;
+  right: -25px;
+}
+
+.banner-text-wrapper .start-button {
+  /* margin-top: 120px; */
+  text-align: center;
+  max-width: 70%;
+  /* > a {
+    display: flex;
+    height: 40px;
+    padding: 0 16px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    border-radius: @border-radius-base;
+    border: 1px solid;
+    border-color: #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background: transparent;
+    transition: all .45s;
+    line-height: 36px;
+    &:hover {
+    }
+  } */
+}
+
+.page {
+  min-height: 700px;
+  height: 100vh;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+  background: #fff;
+}
+
+
+  .text-wrapper {
+    width: 35%;
+    float: left;
+    position: relative;
+    top: 20%;
+    left: -30px;
+    z-index: 1;
+  }
+  .text-wrapper h2,
+  .text-wrapper-bottom h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: normal;
+    white-space: nowrap;
+  }
+  .text-wrapper p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #999;
+  }
+  .left-text {
+    padding-left: 10%;
+  }
+
+.text-wrapper-bottom {
+  text-align: center;
+  margin: 10% auto 40px;
+}
+.text-wrapper-bottom p {
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+}
+
+.logon-container{
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logon-container section.form{
+  width: 100%;
+  max-width: 350px;
+  margin-right: 30px;
+}
+/* .logon-container section.form form{
+  margin-top: 100px;
+} */
+
+.logon-container section.form h1{
+  margin-left: 154px;
+  margin-bottom: 64px;
+  width: 380px;
+  height: 216px;
+  text-align: left;
+  font: Bold 50px/54px Codec Cold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+@keyframes upDownMove {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
