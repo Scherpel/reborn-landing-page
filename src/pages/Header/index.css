@@ -1,0 +1,54 @@
+
+.session-header {
+    width: 100%;
+    margin: 0;
+    padding: 0px 0 0 11%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .art{
+      float: right;
+      width: 1100px;
+      margin-right: -11.6%;
+      >img{
+          width: 100%;
+      }
+    }
+    .tween-one{
+      display: none;
+      }
+    .logo{
+      visibility:hidden
+      }
+    .artmob {
+      display: none;
+    }
+    .header-content {
+      h1{
+        white-space: pre;
+        font-family: SourceSansPro-Bold, sans-serif;
+        font-size: 70px;
+        line-height: 72px;
+        color: #3A4A5D;
+        margin-top: 50px;
+      }
+      p{
+        font-family: SourceSansPro-Regular, sans-serif;
+        font-size: 21px;
+        line-height: 32px;
+        color: #3A4A5D;
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: $margin-desktop;
+  
+      }
+      .button{
+        width: 350px;
+        font-family: Roboto-Bold, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }

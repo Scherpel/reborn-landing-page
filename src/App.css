@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Codec;
+  src: url('./styles/fonts/Codec\ Cold\ Trial\ Bold\ 700.ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -41,7 +46,7 @@
 .banner-text-wrapper h2 {
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Raleway', 'Hiragino Sans GB';
+  font-family: Codec, 'san-sanrif';
   color: #fff;
 }
 .banner-text-wrapper .line {
@@ -156,7 +161,7 @@
   width: 380px;
   height: 216px;
   text-align: left;
-  font: Bold 50px/54px Codec Cold;
+  font-family: Codec, 'san-sanrif';
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
