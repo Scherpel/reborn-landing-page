@@ -20,7 +20,7 @@ function App() {
           <div className="logon-container">
 
             <section className="form">
-                    <h1>Bem vindo. <br/>Aqui renasce a Criatividade Brasileira.</h1>
+                    <h1>Bem-vindo. <br/>Aqui renasce a Criatividade Brasileira.</h1>
                     <button className="button" type="submit">ONBOARDING</button>
                     <button className="button" type="submit">REBORN</button>
                     {/* <Link to="/register" className="back-link">

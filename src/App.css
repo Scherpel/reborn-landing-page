@@ -62,30 +62,6 @@
   right: -25px;
 }
 
-.banner-text-wrapper .start-button {
-  /* margin-top: 120px; */
-  text-align: center;
-  max-width: 70%;
-  /* > a {
-    display: flex;
-    height: 40px;
-    padding: 0 16px;
-    margin-bottom: 15px;
-    font-weight: 500;
-    border-radius: @border-radius-base;
-    border: 1px solid;
-    border-color: #fff;
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    background: transparent;
-    transition: all .45s;
-    line-height: 36px;
-    &:hover {
-    }
-  } */
-}
-
 .page {
   min-height: 700px;
   height: 100vh;
@@ -157,14 +133,38 @@
 
 .logon-container section.form h1{
   margin-left: 154px;
-  margin-bottom: 64px;
+  margin-bottom: 20px;
+  margin-top: 114px;
   width: 380px;
   height: 216px;
   text-align: left;
+  font-size: 40px;
   font-family: Codec, 'san-sanrif';
   letter-spacing: 0px;
   color: #FFFFFF;
-  opacity: 1;
+}
+
+.banner-text-wrapper .start-button {
+  margin-top: 120px;
+  text-align: center;
+  max-width: 70%;
+  display: flex;
+  height: 40px;
+  padding: 0 16px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  border: 1px solid;
+  border-color: #fff;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  background: transparent;
+  transition: all .45s;
+  line-height: 36px;
+    /* &:hover {
+      // background: url("https://os.alipayobjects.com/rmsportal/GhjqstwSgxBXrZS.png") no-repeat center / cover;
+      // z-index: +1;
+    } */
 }
 
 
