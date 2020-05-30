@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Codec;
+    src: url('../../styles/fonts/Codec\ Cold\ Trial\ Bold\ 700.ttf');
+  }
+
+ .footer{
+      background: transparent;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-basis: auto;
+      width: 100%;
+
+  }
+  .footer a{
+      font-size: 12px;
+      background: transparent;
+      font: Codec Cold, sans-serif;
+      margin-right: 900px;
+      color: white;
+      text-decoration: none;
+  }
+  
