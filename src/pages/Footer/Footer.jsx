@@ -6,7 +6,7 @@ export default function Footer(){
     return(
        <div> 
            <footer className= "footer">
-           <a href="http://instagram.com/rebornbr">Follow us on Instagram</a>
+           <a className="instagram" href="http://instagram.com/rebornbr">Follow us on Instagram</a>
             <video autoPlay loop style={{
                 width: "50px",
             }}>

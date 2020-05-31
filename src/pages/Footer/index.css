@@ -11,14 +11,16 @@
       justify-content: space-evenly;
       flex-basis: auto;
       width: 100%;
+      font-family: Codec, sans-serif;
 
   }
   .footer a{
       font-size: 12px;
       background: transparent;
-      font: Codec Cold, sans-serif;
+      font-family: Codec, sans-serif;
       margin-right: 900px;
       color: white;
       text-decoration: none;
   }
+
   

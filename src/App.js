@@ -23,9 +23,8 @@ function App() {
 
             <section className="form">
               <h1>Bem-vindo. <br/>Aqui renasce a Criatividade Brasileira.</h1>
-              <button className="button" type="submit">ONBOARDING</button>
-              <button className="button" type="submit">REBORN</button>
-
+              <button className="button1" type="submit"><span>ONBOARDING</span></button>
+              <button className="button2" type="submit"><span>REBORN</span></button>
               {/* <Link to="/register" className="back-link">
                 <FiLogIn size={16} color="#E02041"/>
                 Não tenho cadastro</Link> */}
