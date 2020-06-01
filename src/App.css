@@ -31,6 +31,16 @@
 .App-link {
   color: #61dafb;
 }
+.new-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+
 .banner-wrapper {
   position: relative;
   width: 100%;
